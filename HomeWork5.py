@@ -49,6 +49,9 @@ for i in range(10000):
         print(i)
         
         
+      #question4 - x*3-x*2+2 def func(x): return x3-x2+2 def derivFunc( x ): return 3 * x*2 - 2 * x def newtonRaphson(x): d = func(x) / derivFunc(x) for e in range(10): d = func(x) / derivFunc(x) ''''''' x(e+1) = x(e) - f(x) / f'(x) x = x - d print("The number's root that you have entered is : ", "%.4f"% x) x0 = -20 newtonRaphson( x0 ) input()  
+        
+        
   #question 5
 text = str(input("enter text: "))
 s = int(input("enter shift: "))
